@@ -778,9 +778,9 @@
 
   "browse.comcol.by.dateissued": "By Issue Date",
 
-  "browse.comcol.by.subject": "By Subject",
+  "browse.comcol.by.subject": "By Drawing No.",
 
-  "browse.comcol.by.srsc": "By Subject Category",
+  "browse.comcol.by.srsc": "By Drawing No. Category",
 
   "browse.comcol.by.nsi": "By Norwegian Science Index",
 
@@ -794,7 +794,7 @@
 
   "browse.metadata.dateissued": "Issue Date",
 
-  "browse.metadata.subject": "Subject",
+  "browse.metadata.subject": "Drawing No.",
 
   "browse.metadata.title": "Title",
 
@@ -802,9 +802,9 @@
 
   "browse.metadata.dateissued.breadcrumbs": "Browse by Date",
 
-  "browse.metadata.subject.breadcrumbs": "Browse by Subject",
+  "browse.metadata.subject.breadcrumbs": "Browse by Drawing No.",
 
-  "browse.metadata.srsc.breadcrumbs": "Browse by Subject Category",
+  "browse.metadata.srsc.breadcrumbs": "Browse by Drawing No. Category",
 
   "browse.metadata.nsi.breadcrumbs": "Browse by Norwegian Science Index",
 
@@ -864,7 +864,7 @@
 
   "browse.startsWith.input": "Filter",
 
-  "browse.taxonomy_srsc.title": "Browsing by Subject Category",
+  "browse.taxonomy_srsc.title": "Browsing by Drawing No. Category",
 
   "browse.taxonomy.button": "Browse",
 
@@ -1478,7 +1478,7 @@
 
   "dso-selector.set-scope.community.head": "Select a search scope",
 
-  "dso-selector.set-scope.community.button": "Search all of DSpace",
+  "dso-selector.set-scope.community.button": "Search all of AFK Digital Library",
 
   "dso-selector.set-scope.community.or-divider": "or",
 
@@ -1774,7 +1774,7 @@
 
   "grant-deny-request-copy.email.send": "Send",
 
-  "grant-deny-request-copy.email.subject": "Subject",
+  "grant-deny-request-copy.email.subject": "Drawing No.",
 
   "grant-deny-request-copy.email.subject.empty": "Please enter a subject",
 
@@ -2392,7 +2392,7 @@
 
   "item.page.abstract": "Abstract",
 
-  "item.page.author": "Authors",
+  "item.page.author": "Drawing No.",
 
   "item.page.citation": "Citation",
 
@@ -2840,21 +2840,21 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "All of DSpace",
+  "menu.section.browse_global": "All of AFK Digital Library",
 
   "menu.section.browse_global_by_author": "By Author",
 
   "menu.section.browse_global_by_dateissued": "By Issue Date",
 
-  "menu.section.browse_global_by_subject": "By Subject",
+  "menu.section.browse_global_by_subject": "By Drawing No.",
 
-  "menu.section.browse_global_by_srsc": "By Subject Category",
+  "menu.section.browse_global_by_srsc": "By Drawing No. Category",
 
   "menu.section.browse_global_by_nsi": "By Norwegian Science Index",
 
   "menu.section.browse_global_by_title": "By Title",
 
-  "menu.section.browse_global_communities_and_collections": "Communities & Collections",
+  //"menu.section.browse_global_communities_and_collections": "Communities & Collections",
 
   "menu.section.control_panel": "Control Panel",
 
@@ -2998,7 +2998,7 @@
 
   "mydspace.messages.show-msg": "Show message",
 
-  "mydspace.messages.subject-placeholder": "Subject...",
+  "mydspace.messages.subject-placeholder": "Drawing No....",
 
   "mydspace.messages.submitter-help": "Select this option to send a message to controller.",
 
@@ -3060,7 +3060,7 @@
 
   "mydspace.view-btn": "View",
 
-  "nav.browse.header": "All of DSpace",
+  "nav.browse.header": "All of AFK Digital Library",
 
   "nav.community-browse.header": "By Community",
 
@@ -3678,7 +3678,7 @@
 
   "search.filters.applied.f.discoverable": "Non-discoverable",
 
-  "search.filters.applied.f.entityType": "Item Type",
+  "search.filters.applied.f.entityType": "Material",
 
   "search.filters.applied.f.has_content_in_original_bundle": "Has files",
 
@@ -3686,7 +3686,7 @@
 
   "search.filters.applied.f.namedresourcetype": "Status",
 
-  "search.filters.applied.f.subject": "Subject",
+  "search.filters.applied.f.subject": "Drawing No.",
 
   "search.filters.applied.f.submitter": "Submitter",
 
@@ -3700,11 +3700,11 @@
 
   "search.filters.applied.f.withdrawn": "Withdrawn",
 
-  "search.filters.filter.author.head": "Author",
+  "search.filters.filter.author.head": "Operation",
 
-  "search.filters.filter.author.placeholder": "Author name",
+  "search.filters.filter.author.placeholder": "Operation",
 
-  "search.filters.filter.author.label": "Search author name",
+  "search.filters.filter.author.label": "Search by operation",
 
   "search.filters.filter.birthDate.head": "Birth Date",
 
@@ -3726,11 +3726,11 @@
 
   "search.filters.filter.creativeWorkEditor.label": "Search editor",
 
-  "search.filters.filter.creativeWorkKeywords.head": "Subject",
+  "search.filters.filter.creativeWorkKeywords.head": "Drawing No.",
 
-  "search.filters.filter.creativeWorkKeywords.placeholder": "Subject",
+  "search.filters.filter.creativeWorkKeywords.placeholder": "Drawing No.",
 
-  "search.filters.filter.creativeWorkKeywords.label": "Search subject",
+  "search.filters.filter.creativeWorkKeywords.label": "Search drawing no.",
 
   "search.filters.filter.creativeWorkPublisher.head": "Publisher",
 
@@ -3758,11 +3758,11 @@
 
   "search.filters.filter.withdrawn.head": "Withdrawn",
 
-  "search.filters.filter.entityType.head": "Item Type",
+  "search.filters.filter.entityType.head": "Material",
 
-  "search.filters.filter.entityType.placeholder": "Item Type",
+  "search.filters.filter.entityType.placeholder": "Material",
 
-  "search.filters.filter.entityType.label": "Search item type",
+  "search.filters.filter.entityType.label": "Search material",
 
   "search.filters.filter.expand": "Expand filter",
 
@@ -3826,9 +3826,9 @@
 
   "search.filters.filter.show-more": "Show more",
 
-  "search.filters.filter.subject.head": "Subject",
+  "search.filters.filter.subject.head": "Drawing No.",
 
-  "search.filters.filter.subject.placeholder": "Subject",
+  "search.filters.filter.subject.placeholder": "Drawing No.",
 
   "search.filters.filter.subject.label": "Search subject",
 
@@ -3884,7 +3884,7 @@
 
   "search.form.search_dspace": "All repository",
 
-  "search.form.scope.all": "All of DSpace",
+  "search.form.scope.all": "All of AFK Digital Library",
 
   "search.results.head": "Search Results",
 
@@ -4754,7 +4754,7 @@
 
   "subscriptions.modal.update.error": "An error occurs during the subscription update",
 
-  "subscriptions.table.dso": "Subject",
+  "subscriptions.table.dso": "Drawing No.",
 
   "subscriptions.table.subscription_type": "Subscription Type",
 
@@ -4804,7 +4804,7 @@
 
   "vocabulary-treeview.tree.description.nsi": "The Norwegian Science Index",
 
-  "vocabulary-treeview.tree.description.srsc": "Research Subject Categories",
+  "vocabulary-treeview.tree.description.srsc": "Research Drawing No. Categories",
 
   "vocabulary-treeview.info": "Select a subject to add as search filter",
 
