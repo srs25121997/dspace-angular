@@ -70,6 +70,7 @@ export class MenuResolver implements Resolve<boolean> {
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean> {
     return combineLatest([
       this.createPublicMenu$(),
+      this.createAdminMenu$(),
     ]).pipe(
       map((menusDone: boolean[]) => menusDone.every(Boolean)),
     );
@@ -150,10 +151,10 @@ export class MenuResolver implements Resolve<boolean> {
    */
   createAdminMenu$() {
     this.createMainMenuSections();
-    this.createSiteAdministratorMenuSections();
-    this.createExportMenuSections();
-    this.createImportMenuSections();
-    this.createAccessControlMenuSections();
+    //this.createSiteAdministratorMenuSections();
+    //this.createExportMenuSections();
+    //this.createImportMenuSections();
+    //this.createAccessControlMenuSections();
 
     return this.waitForMenu$(MenuID.ADMIN);
   }
@@ -210,17 +211,17 @@ export class MenuResolver implements Resolve<boolean> {
             }
           } as OnClickMenuItemModel,
         },
-        {
-          id: 'new_process',
-          parentID: 'new',
-          active: false,
-          visible: isSiteAdmin,
-          model: {
-            type: MenuItemType.LINK,
-            text: 'menu.section.new_process',
-            link: '/processes/new'
-          } as LinkMenuItemModel,
-        },
+        // {
+        //   id: 'new_process',
+        //   parentID: 'new',
+        //   active: false,
+        //   visible: isSiteAdmin,
+        //   model: {
+        //     type: MenuItemType.LINK,
+        //     text: 'menu.section.new_process',
+        //     link: '/processes/new'
+        //   } as LinkMenuItemModel,
+        // },
       ];
       const editSubMenuList = [
         /* Edit */
