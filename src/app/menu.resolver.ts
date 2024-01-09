@@ -94,17 +94,17 @@ export class MenuResolver implements Resolve<boolean> {
   createPublicMenu$(): Observable<boolean> {
     const menuList: any[] = [
       /* Communities & Collections tree */
-      {
-        id: `browse_global_communities_and_collections`,
-        active: false,
-        visible: true,
-        index: 0,
-        model: {
-          type: MenuItemType.LINK,
-          text: `menu.section.browse_global_communities_and_collections`,
-          link: `/community-list`
-        } as LinkMenuItemModel
-      }
+      // {
+      //   id: `browse_global_communities_and_collections`,
+      //   active: false,
+      //   visible: true,
+      //   index: 0,
+      //   model: {
+      //     type: MenuItemType.LINK,
+      //     text: `menu.section.browse_global_communities_and_collections`,
+      //     link: `/community-list`
+      //   } as LinkMenuItemModel
+      // }
     ];
     // Read the different Browse-By types from config and add them to the browse menu
     this.browseService.getBrowseDefinitions()
@@ -112,31 +112,31 @@ export class MenuResolver implements Resolve<boolean> {
       .subscribe((browseDefListRD: RemoteData<PaginatedList<BrowseDefinition>>) => {
         if (browseDefListRD.hasSucceeded) {
           browseDefListRD.payload.page.forEach((browseDef: BrowseDefinition) => {
-            menuList.push({
-              id: `browse_global_by_${browseDef.id}`,
-              parentID: 'browse_global',
-              active: false,
-              visible: true,
-              model: {
-                type: MenuItemType.LINK,
-                text: `menu.section.browse_global_by_${browseDef.id}`,
-                link: `/browse/${browseDef.id}`
-              } as LinkMenuItemModel
-            });
+            // menuList.push({
+            //   id: `browse_global_by_${browseDef.id}`,
+            //   parentID: 'browse_global',
+            //   active: false,
+            //   visible: true,
+            //   model: {
+            //     type: MenuItemType.LINK,
+            //     text: `menu.section.browse_global_by_${browseDef.id}`,
+            //     link: `/browse/${browseDef.id}`
+            //   } as LinkMenuItemModel
+            // });
           });
-          menuList.push(
-            /* Browse */
-            {
-              id: 'browse_global',
-              active: false,
-              visible: true,
-              index: 1,
-              model: {
-                type: MenuItemType.TEXT,
-                text: 'menu.section.browse_global'
-              } as TextMenuItemModel,
-            }
-          );
+          // menuList.push(
+          //   /* Browse */
+          //   {
+          //     id: 'browse_global',
+          //     active: false,
+          //     visible: true,
+          //     index: 1,
+          //     model: {
+          //       type: MenuItemType.TEXT,
+          //       text: 'menu.section.browse_global'
+          //     } as TextMenuItemModel,
+          //   }
+          // );
         }
         menuList.forEach((menuSection) => this.menuService.addSection(MenuID.PUBLIC, Object.assign(menuSection, {
           shouldPersistOnRouteChange: true
@@ -337,30 +337,30 @@ export class MenuResolver implements Resolve<boolean> {
         // },
 
         /* Processes */
-        {
-          id: 'processes',
-          active: false,
-          visible: isSiteAdmin,
-          model: {
-            type: MenuItemType.LINK,
-            text: 'menu.section.processes',
-            link: '/processes'
-          } as LinkMenuItemModel,
-          icon: 'terminal',
-          index: 10
-        },
-        {
-          id: 'health',
-          active: false,
-          visible: isSiteAdmin,
-          model: {
-            type: MenuItemType.LINK,
-            text: 'menu.section.health',
-            link: '/health'
-          } as LinkMenuItemModel,
-          icon: 'heartbeat',
-          index: 11
-        },
+        // {
+        //   id: 'processes',
+        //   active: false,
+        //   visible: isSiteAdmin,
+        //   model: {
+        //     type: MenuItemType.LINK,
+        //     text: 'menu.section.processes',
+        //     link: '/processes'
+        //   } as LinkMenuItemModel,
+        //   icon: 'terminal',
+        //   index: 10
+        // },
+        // {
+        //   id: 'health',
+        //   active: false,
+        //   visible: isSiteAdmin,
+        //   model: {
+        //     type: MenuItemType.LINK,
+        //     text: 'menu.section.health',
+        //     link: '/health'
+        //   } as LinkMenuItemModel,
+        //   icon: 'heartbeat',
+        //   index: 11
+        // },
       ];
       menuList.forEach((menuSection) => this.menuService.addSection(MenuID.ADMIN, Object.assign(menuSection, {
         shouldPersistOnRouteChange: true
