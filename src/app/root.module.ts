@@ -67,7 +67,7 @@ const DECLARATIONS = [
   ThemedAdminSidebarComponent,
   AdminSidebarSectionComponent,
   ExpandableAdminSidebarSectionComponent,
-  //FooterComponent,
+  FooterComponent,
   ThemedFooterComponent,
   PageNotFoundComponent,
   ThemedPageNotFoundComponent,
