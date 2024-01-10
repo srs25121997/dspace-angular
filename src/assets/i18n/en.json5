@@ -1848,9 +1848,9 @@
 
   "home.title": "Home",
 
-  "home.top-level-communities.head": "Communities in DSpace",
+  "home.top-level-communities.head": "",
 
-  "home.top-level-communities.help": "Select a community to browse its collections.",
+  "home.top-level-communities.help": "",
 
   "info.end-user-agreement.accept": "I have read and I agree to the End User Agreement",
 
@@ -2438,11 +2438,11 @@
 
   "item.page.relationships.isJournalOfPublication": "Publications",
 
-  "item.page.relationships.isOrgUnitOfPerson": "Authors",
+  "item.page.relationships.isOrgUnitOfPerson": Operation,
 
   "item.page.relationships.isOrgUnitOfProject": "Research Projects",
 
-  "item.page.subject": "Keywords",
+  "item.page.subject": "Drawing number",
 
   "item.page.uri": "URI",
 
@@ -2710,7 +2710,7 @@
 
   "journalissue.page.journal-title": "Journal Title",
 
-  "journalissue.page.keyword": "Keywords",
+  "journalissue.page.keyword": "Drawing number",
 
   "journalissue.page.number": "Number",
 
@@ -3364,7 +3364,7 @@
 
   "project.page.id": "ID",
 
-  "project.page.keyword": "Keywords",
+  "project.page.keyword": "Drawing number",
 
   "project.page.status": "Status",
 
@@ -5062,7 +5062,7 @@
 
   "person.page.orcid.sync-queue.description.researcher_urls": "Researcher urls",
 
-  "person.page.orcid.sync-queue.description.keywords": "Keywords",
+  "person.page.orcid.sync-queue.description.keywords": "Drawing number",
 
   "person.page.orcid.sync-queue.tooltip.insert": "Add a new entry in the ORCID registry",
 
