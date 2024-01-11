@@ -3490,7 +3490,7 @@
 
   "relationships.add.error.title": "Unable to add relationship",
 
-  "relationships.isAuthorOf": "Authors",
+  "relationships.isAuthorOf": "Operation",
 
   "relationships.isAuthorOf.Person": "Authors (persons)",
 
@@ -3504,7 +3504,7 @@
 
   "relationships.isOrgUnitOf": "Organizational Units",
 
-  "relationships.isPersonOf": "Authors",
+  "relationships.isPersonOf": "Operation",
 
   "relationships.isProjectOf": "Research Projects",
 
@@ -4280,7 +4280,7 @@
 
   "submission.sections.describe.relationship-lookup.title.isJournalOfPublication": "Journals",
 
-  "submission.sections.describe.relationship-lookup.title.isAuthorOfPublication": "Authors",
+  "submission.sections.describe.relationship-lookup.title.isAuthorOfPublication": "Operation",
 
   "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfPublication": "Funding Agency",
 
@@ -4288,7 +4288,7 @@
 
   "submission.sections.describe.relationship-lookup.title.Publication": "Publications",
 
-  "submission.sections.describe.relationship-lookup.title.Person": "Authors",
+  "submission.sections.describe.relationship-lookup.title.Person": "Operation",
 
   "submission.sections.describe.relationship-lookup.title.OrgUnit": "Organizational Units",
 
@@ -4446,7 +4446,7 @@
 
   "submission.sections.submit.progressbar.identifiers": "Identifiers",
 
-  "submission.sections.submit.progressbar.license": "Deposit license",
+  "submission.sections.submit.progressbar.license": "",
 
   "submission.sections.submit.progressbar.sherpapolicy": "Sherpa policies",
 
@@ -4570,7 +4570,7 @@
 
   "submission.sections.accesses.form.until-placeholder": "Until",
 
-  "submission.sections.license.granted-label": "I confirm the license above",
+  "submission.sections.license.granted-label": "I confirm",
 
   "submission.sections.license.required": "You must accept the license",
 
